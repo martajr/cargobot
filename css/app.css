@@ -83,13 +83,17 @@ body, html {
     background: #fff;
     border: 1px solid #666;
     width: 600px;
-    height: 400px;
+    height: 450px;
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
     position: relative;
 }
 .overlay:target {
     visibility: visible;
     opacity: 1;
+}
+
+.video{
+	position: absolute;
 }
 .close {
     position: absolute;
@@ -141,11 +145,7 @@ label {
     cursor: pointer;
     padding-bottom: 15px;
     padding-top: 20px;
-
-
 }
-
-
 .tab-content {
     max-height: 0;
     overflow: hidden;
@@ -178,18 +178,14 @@ label::after {
 }
 input[type=checkbox] + label::after {
     content: "+";
+	margin-right: 10px;
+	margin-top: 10px;
     color: white;
 }
-input[type=radio] + label::after {
-    content: "\25BC";
-}
 input[type=checkbox]:checked + label::after {
-    transform: rotate(315deg);
+	content: "-";
+    /*transform: rotate(315deg);*/
 }
-input[type=radio]:checked + label::after {
-    transform: rotateX(180deg);
-}
-
 
 .textos_footer{
 	font-size: 12px;

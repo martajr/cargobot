@@ -8,56 +8,55 @@
 </head>
 
 <body>
+<!--                                        header                                                      -->
 <header>
     <div class="top-bar" id="main_barra">
         <div class="top-bar-left">
             <div class="title-bar" data-responsive-toggle="second_barra" data-hide-for="" id="menu_hamburguer">
                 <div class="" style="margin-right: 30px; padding: 0px;">
-                    <!--Add homepage link to logo-->
-                    <a href="http://cargobot.io/">
+                    <a href="index.html">
                         <img src="img/logo-c.png" alt="CargoBot">
                     </a>
                 </div>
-                <!--<button class="menu-icon" type="button" data-toggle="second_barra"></button>
-                <div class="title-bar-title texto_main_barra" id="texto_menu">Menu</div>-->
             </div>
         </div>
         <div class="top-bar-right">
             <ul class="menu vertical medium-horizontal large-horizontal">
                 <li><a href="https://private.cargobot.io/login" class="texto_main_barra text-center" id="login_menu_btn">ALREADY A MEMBER? <strong>SIGN IN</strong></a></li>
-                <!--<li><a href="" class="texto_main_barra text-center" id="register_menu_btn">IF NOT, <strong>REGISTER NOW</strong></a></li>-->
             </ul>
         </div>
     </div>
 </header>
-
+<!--                                        menu                                                         -->
 <div class="menu-centered" id="second_barra">
     <ul class="menu vertical medium-horizontal large-horizontal">
         <li><a href="index.html" class="texto_main_barra"><span class="icon-home icon_menu">
-<img src="icons/home.png" class="img-icon-menu">
+            <img src="icons/home.png" class="img-icon-menu">
         </span> Home</a></li>
-        <li><a href="shippers.html" class="texto_main_barra"><span class="icon-shippers icon_menu">
-<img src="icons/shippers.png" class="img-icon-menu">
-        </span>For Shippers</a></li>
-        <li><a href="carriers.html" class="texto_main_barra"><span class="icon-carriers icon_menu" style="font-weight: bolder;">
 
+        <li><a href="shippers.html" class="texto_main_barra"><span class="icon-shippers icon_menu">
+            <img src="icons/shippers.png" class="img-icon-menu">
+        </span>For Shippers</a></li>
+
+        <li><a href="carriers.html" class="texto_main_barra"><span class="icon-carriers icon_menu" style="font-weight: bolder;">
         <img src="icons/carriers.png" class="img-icon-menu">
         </span>For Carriers</a></li>
+
         <li><a href="story.html" class="texto_main_barra"><span class="icon-story icon_menu">
-<img src="icons/story.png" class="img-icon-menu">
-
+            <img src="icons/story.png" class="img-icon-menu">
         </span>Our Story</a></li>
-        <li><a href="faq.html" class="texto_main_barra"><span class="icon-faq icon_menu">
-<img src="icons/faq.png" class="img-icon-menu">
-        </span>FAQ</a></li>
-        <li><a href="team.html" class="texto_main_barra"><span class="icon-team icon_menu">
-<img src="icons/team.png" class="img-icon-menu">
-        </span>Team</a></li>
 
+        <li><a href="faq.html" class="texto_main_barra"><span class="icon-faq icon_menu">
+            <img src="icons/faq.png" class="img-icon-menu">
+        </span>FAQ</a></li>
+
+        <li><a href="team.html" class="texto_main_barra"><span class="icon-team icon_menu">
+            <img src="icons/team.png" class="img-icon-menu">
+        </span>Team</a></li>
     </ul>
 </div>
 
-
+<!--                                        contenido de la pagina                                                -->
 <div class="row column expanded foto_home">
     <div class="row column expanded filtro_negro">
         <div class=" row titulos">
@@ -67,53 +66,45 @@
                 <p class="text-left texto_refuerzo">Connecting shippers and carriers through the power of technology backed by a committed team.</p>
             </div>
         </div>
-        <div class="row cta_amarillo" style="margin-bottom: 0px;">
+    <div class="row cta_amarillo" style="margin-bottom: 0px;">
             <div class="button-group large-6 medium-6 small-10 stacked-for-small stacked-for-medium small-centered">
                 <a href="shippers.html" class="button boton_amarillo expanded" style="margin-right: 10px; margin-bottom: 10px;">For Shippers</a>
                 <a href="carriers.html" class="button boton_amarillo expanded" style="margin-right: 10px; margin-bottom: 10px;">For Carriers</a>
-                <!--<p><button class="hollow button warning expanded" data-open="exampleModal1" style="font-size:
-                 13px;font-weight: 400; font-family: 'Lato', sans-serif;padding-left: 35px !important;padding-right: 35px !important;padding-top: 15px
-                 !important;padding-bottom: 15px !important; margin-bottom: 0px;">Watch Video</button></p>-->
                 <p><a href="#popup1"  class="hollow button warning expanded" style="font-size:
-                 13px;background: none; border: 1px solid #F9B513;;font-weight: 400; font-family: 'Lato', sans-serif;padding-left: 35px !important;padding-right: 35px !important;padding-top: 15px
+                 13px;background: none; border: 1px solid #F9B513;font-weight: 400; font-family: 'Lato', sans-serif;padding-left: 35px !important;padding-right: 35px !important;padding-top: 15px
                  !important;padding-bottom: 15px !important; margin-bottom: 0px;">Watch Video</a></p>
             </div>
         </div>
     </div>
 </div>
-
+<!--                                        popup video                                                     -->
 <div id="popup1" class="overlay">
     <div class="popup">
-        <a href="#" style="font-size: 40px; float: right">&times;</a>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7BICt3NxAM8" frameborder="0" allowfullscreen></iframe>
+        <iframe width="575" height="430" src="https://www.youtube.com/embed/7BICt3NxAM8" frameborder="0" allowfullscreen class="video"></iframe>
+        <a href="#" style="font-size: 40px; position: absolute;  top: -10px;left: 560px; color: gray">&times;</a>
     </div>
-
 </div>
 
-<!--<div class="reveal" id="exampleModal1" data-reveal>
-    <div class="responsive-embed">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7BICt3NxAM8" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span></button>
-</div>-->
-
+<!--                                       footer                                                    -->
 <footer>
     <div class="top-bar" id="footerhome">
         <div class="top-bar-left">
             <ul class="menu vertical medium-horizontal large-horizontal" id="redes_sociales">
-                <li class=""><a href="https://www.facebook.com/cargobot.io/" target="_blank" class="textos_footer text-center"><span class="icon-facebook icon_menu">
-
+                <li class=""><a href="https://www.facebook.com/cargobot.io/" target="_blank" class="textos_footer text-center">
+                    <span class="icon-facebook icon_menu">
                     <img src="icons/facebook.png" class="img-icon-menu">
             </span>Facebook</a></li>
-                <li class=""><a href="https://www.instagram.com/_cargobot_/" target="_blank" class="textos_footer text-center"><span class="icon-instagram icon_menu">
-<img src="icons/instagram.png" class="img-icon-menu">
+                <li class=""><a href="https://www.instagram.com/_cargobot_/" target="_blank" class="textos_footer text-center">
+                    <span class="icon-instagram icon_menu">
+                    <img src="icons/instagram.png" class="img-icon-menu">
             </span>Instagram</a></li>
-                <li class=""><a href="https://www.linkedin.com/company/cargobot" target="_blank"  class="textos_footer text-center"><span class="icon-linkedin icon_menu">
-<img src="icons/linkedin.png" class="img-icon-menu">
+                <li class=""><a href="https://www.linkedin.com/company/cargobot" target="_blank"  class="textos_footer text-center">
+                    <span class="icon-linkedin icon_menu">
+                    <img src="icons/linkedin.png" class="img-icon-menu">
             </span>Linkedin</a></li>
-                <li class=""><a href="https://twitter.com/_cargobot_?lang=en" target="_blank"  class="textos_footer text-center"><span class="icon-twitter icon_menu">
-<img src="icons/twitter.png" class="img-icon-menu">
+                <li class=""><a href="https://twitter.com/_cargobot_?lang=en" target="_blank"  class="textos_footer text-center">
+                    <span class="icon-twitter icon_menu">
+                    <img src="icons/twitter.png" class="img-icon-menu">
             </span>Twitter</a></li>
             </ul>
         </div>
@@ -126,7 +117,6 @@
             </ul>
         </div>
     </div>
-
 </footer>
 </body>
 </html>
